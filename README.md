@@ -4,9 +4,11 @@ Using ther [Pokemon API](https://pokeapi.co/) build a CLI tool that will enable 
 
 ## Requirements
 
-When the application is first run it should show a list of pokemon. The list should show the name of the pokemon and the names of there types (e.g. Normal, Grass, Poison... ). Both the Name and the Type Names should be Title Case
+Work through each of the requirements one by one and complete the required functionality before moving onto the next
 
-By default the application should load 20 pokemon. However uses can use the optional **limit** flag`--limit=#` to change the number of pokemon listed at one time. After displaying the list of pokemon the application should init you to hit enter to see more Pokemon or enter 'q' to quite
+### List Pokemon
+
+When the application is first run it should show a list of pokemon. The list should show the name of the pokemon. The name should in Title Case. 
 
 The list should look something like this
 
@@ -21,3 +23,19 @@ The list should look something like this
 
 Press enter key to see the next 5 pokemon or q to quit.
 ```
+
+### Set the limit
+
+By default the application should load 20 pokemon. However uses can use the optional **limit** flag`--limit=#` to change the number of pokemon listed at one time. 
+
+### Paginate List
+
+After displaying the list of pokemon the application should init you to hit enter to see more Pokemon
+
+### Early Exit
+
+enter 'q' to quite
+
+### Add Types
+
+and the names of there types (e.g. Normal, Grass, Poison... ). Both the Name and the Type Names should be Title Case
